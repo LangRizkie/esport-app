@@ -6,6 +6,11 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'fakeimg.pl',
         port: ''
+      },
+      {
+        protocol: 'https',
+        hostname: 'logo.clearbit.com',
+        port: ''
       }
     ]
   }

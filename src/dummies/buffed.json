@@ -1,0 +1,196 @@
+{
+  "teams": [
+    {
+      "id": "5ab83977-100a-4c23-aa04-59a62fa43741",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Evos e-sport",
+      "username": "evos",
+      "type": "team",
+      "location": "Jakarta, Jakarta.",
+      "role": "Roster",
+      "isTeam": true,
+      "signature": [
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "5a65788a-6d33-43c7-b2dd-07fe0c99eceb",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Evos e-sport",
+      "username": "evos",
+      "type": "team",
+      "location": "Jakarta, Jakarta.",
+      "role": "Roster",
+      "isTeam": true,
+      "signature": [
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "54fff2b6-8165-4486-b194-c162107dbb8a",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Evos e-sport",
+      "username": "evos",
+      "type": "team",
+      "location": "Jakarta, Jakarta.",
+      "role": "Roster",
+      "isTeam": true,
+      "signature": [
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "0fd43e4f-7735-495d-90b4-8b11075530e6",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Evos e-sport",
+      "username": "evos",
+      "type": "team",
+      "location": "Jakarta, Jakarta.",
+      "role": "Roster",
+      "isTeam": true,
+      "signature": [
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" },
+        { "name": "Casad1as", "icon": "https://fakeimg.pl/96x96" }
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": "f7712211-d02c-4bb6-9a98-150fb2aaa9d9",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "player",
+      "location": "Bandung, Jawa Barat.",
+      "role": "offlaner",
+      "game": "dota2",
+      "isTeam": false,
+      "signature": [
+        { "name": "Bounty Hunter", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Dazzle", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Enchantress", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "52ea146f-3bfe-48b0-96cf-f410b90ebbf5",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "player",
+      "location": "Bandung, Jawa Barat.",
+      "role": "offlaner",
+      "game": "dota2",
+      "isTeam": false,
+      "signature": [
+        { "name": "Bounty Hunter", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Dazzle", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Enchantress", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "f57b5193-d95c-4ec9-9529-f2bac3c08d58",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "player",
+      "location": "Bandung, Jawa Barat.",
+      "role": "offlaner",
+      "game": "dota2",
+      "isTeam": false,
+      "signature": [
+        { "name": "Bounty Hunter", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Dazzle", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Enchantress", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "1bebe422-8bb8-421c-8d13-b197a96107b7",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "player",
+      "location": "Bandung, Jawa Barat.",
+      "role": "offlaner",
+      "game": "dota2",
+      "isTeam": false,
+      "signature": [
+        { "name": "Bounty Hunter", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Dazzle", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Enchantress", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    }
+  ],
+  "talents": [
+    {
+      "id": "5ef0695c-38b2-4ddc-951b-445a32effe2c",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "talent",
+      "location": "Bandung, Jawa Barat.",
+      "role": "coach",
+      "game": "valorant",
+      "isTeam": false,
+      "signature": [
+        { "name": "Omen", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Brimstone", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Sage", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "8c4de52f-ac00-4fd0-824a-ab9d390737d9",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "talent",
+      "location": "Bandung, Jawa Barat.",
+      "role": "coach",
+      "game": "valorant",
+      "isTeam": false,
+      "signature": [
+        { "name": "Omen", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Brimstone", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Sage", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "4378567c-2f5f-42ae-92d7-446c5e6d8a84",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "talent",
+      "location": "Bandung, Jawa Barat.",
+      "role": "coach",
+      "game": "valorant",
+      "isTeam": false,
+      "signature": [
+        { "name": "Omen", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Brimstone", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Sage", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    },
+    {
+      "id": "acc83cf5-39ce-4e5e-bdde-f4ad1f94550d",
+      "avatar": "https://fakeimg.pl/96x96",
+      "name": "Gilang Rizkie",
+      "username": "casad1as",
+      "type": "talent",
+      "location": "Bandung, Jawa Barat.",
+      "role": "coach",
+      "game": "valorant",
+      "isTeam": false,
+      "signature": [
+        { "name": "Omen", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Brimstone", "portrait": "https://fakeimg.pl/96x96" },
+        { "name": "Sage", "portrait": "https://fakeimg.pl/96x96" }
+      ]
+    }
+  ]
+}

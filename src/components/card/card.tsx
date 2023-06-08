@@ -1,73 +1,45 @@
-import { BiBookmark, BiMap, BiMedal } from 'react-icons/bi'
+import { BiMap, BiMedal } from 'react-icons/bi'
 import Image from 'next/image'
+import type { userProps } from '@/modules/result/interface'
 import CardStyle from './style'
 
-const Card = () => (
+const Card = ({ data }: { data: userProps }) => (
   <div className={CardStyle.Container}>
     <div className={CardStyle.Title}>
       <div className={CardStyle.Avatar}>
         <div className={CardStyle.Placeholder}>
-          <Image
-            width={96}
-            height={96}
-            src='https://fakeimg.pl/96x96'
-            alt='Avatar'
-            draggable={false}
-          />
+          <Image width={96} height={96} src={data.avatar} alt='Avatar' draggable={false} />
         </div>
       </div>
       <div className={CardStyle.Brand}>
-        <span className={CardStyle.Name}>Gilang Rizkie</span>
-        <span className={CardStyle.Type}>Player</span>
+        <span className={CardStyle.Name}>{data.isTeam ? data.name : data.username}</span>
+        <span className={CardStyle.Type}>{data.type}</span>
       </div>
-      <button type='button' title='bookmark'>
-        <BiBookmark />
-      </button>
     </div>
     <div className={CardStyle.Content}>
       <div className={CardStyle.Location}>
         <BiMap />
-        <span>Bandung, Jawa Barat.</span>
+        <span>{data.location}</span>
       </div>
       <div className={CardStyle.Overview}>
         <div className={CardStyle.Role}>
           <BiMedal />
-          <span>Offlaner</span>
+          <span>{data.role}</span>
         </div>
         <div className={CardStyle.Signature}>
-          <div className={CardStyle.Avatar}>
-            <div className={CardStyle.Character}>
-              <Image
-                width={96}
-                height={96}
-                src='https://fakeimg.pl/96x96'
-                alt='Avatar'
-                draggable={false}
-              />
+          {data.signature.map((signature, index) => (
+            <div key={index} className={CardStyle.Avatar}>
+              <div className={CardStyle.Character}>
+                <Image
+                  width={96}
+                  height={96}
+                  src={signature.icon || signature.portrait || ''}
+                  alt='Avatar'
+                  draggable={false}
+                />
+              </div>
             </div>
-          </div>
-          <div className={CardStyle.Avatar}>
-            <div className={CardStyle.Character}>
-              <Image
-                width={96}
-                height={96}
-                src='https://fakeimg.pl/96x96'
-                alt='Avatar'
-                draggable={false}
-              />
-            </div>
-          </div>
-          <div className={CardStyle.Avatar}>
-            <div className={CardStyle.Character}>
-              <Image
-                width={96}
-                height={96}
-                src='https://fakeimg.pl/96x96'
-                alt='Avatar'
-                draggable={false}
-              />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

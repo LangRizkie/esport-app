@@ -2,7 +2,7 @@ import classNames from 'classnames'
 
 class CardStyle {
   static Container = classNames(
-    'flex w-full h-48 p-4 shadow bg-white overflow-hidden flex-col justify-between'
+    'flex w-full h-40 p-4 shadow bg-white overflow-hidden flex-col justify-between'
   )
   static Title = classNames('flex w-full gap-4 items-start')
   static Avatar = classNames('avatar placeholder')

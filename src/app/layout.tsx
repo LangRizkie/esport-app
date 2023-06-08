@@ -1,7 +1,8 @@
 import { Inter } from 'next/font/google'
 import classNames from 'classnames'
-import type { Children } from '@/modules/interface'
+import Providers from '@/redux/provider'
 import Header from '@/components/header/header'
+import type { Children } from '@/modules/interface'
 
 import './globals.css'
 
@@ -18,8 +19,10 @@ const RootLayout: React.FC<Children> = ({ children }) => {
   return (
     <html lang='en' data-theme='light' className={fonts}>
       <body>
-        <Header />
-        <main>{children}</main>
+        <Providers>
+          <Header />
+          <main>{children}</main>
+        </Providers>
       </body>
     </html>
   )

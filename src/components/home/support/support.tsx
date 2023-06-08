@@ -7,7 +7,7 @@ const Support = () => (
     <div className={SupportStyle.Wrapper}>
       <span>{Constant.Home.Support.Title}</span>
       <div className={SupportStyle.Images}>
-        {Array.from(Array(8).keys()).map((_, index) => (
+        {Array.from(Array(6).keys()).map((_, index) => (
           <Image
             key={index}
             width={96}
