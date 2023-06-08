@@ -1,28 +1,39 @@
 import { BiLogInCircle } from 'react-icons/bi'
 import Link from 'next/link'
+import { titleCase } from 'text-case'
+import Image from 'next/image'
 import Constant from '@/modules/constant'
+import Button from '@/components/button/button'
 import HeaderStyle from './style'
 
 const Header = () => (
   <header className={HeaderStyle.Container}>
     <div className={HeaderStyle.Wrapper}>
-      <div className={HeaderStyle.Logo} />
+      <div className={HeaderStyle.Logo}>
+        <Image
+          width={192}
+          height={64}
+          src='https://fakeimg.pl/192x64?text=Logo'
+          alt='Logo'
+          draggable={false}
+        />
+      </div>
       <div className={HeaderStyle.Navigation}>
-        <div className={HeaderStyle.Link}>
+        <ul className={HeaderStyle.List}>
           {Constant.HeaderNavigation.map((menu, index) => (
             <Link key={index} href={menu.path} shallow>
-              {menu.name}
+              <li>
+                <span>{titleCase(menu.name)}</span>
+              </li>
             </Link>
           ))}
-        </div>
+        </ul>
         <div className={HeaderStyle.Button}>
-          <button type='button' title='Register' className={HeaderStyle.Register}>
-            Register
-          </button>
+          <Button type='button'>Join</Button>
           <div className={HeaderStyle.Tooltip} data-tip='Login'>
-            <button type='button' title='Login' className={HeaderStyle.Login}>
-              <BiLogInCircle size={20} color='white' />
-            </button>
+            <Button type='button' square>
+              <BiLogInCircle size={20} />
+            </Button>
           </div>
         </div>
       </div>
