@@ -2,7 +2,7 @@ import classNames from 'classnames'
 
 class HeaderStyle {
   static Container = classNames(
-    'fixed flex top-0 left-0 w-full h-full max-h-24 border-b bg-white z-10 justify-center'
+    'fixed flex top-0 left-0 w-full h-full max-h-24 bg-base-200 z-20 justify-center'
   )
   static Wrapper = classNames('flex container justify-between items-center')
   static Logo = classNames('flex w-48 h-16 items-center')

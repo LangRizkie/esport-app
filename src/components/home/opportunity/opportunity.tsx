@@ -23,7 +23,7 @@ const Opportunity = () => {
       <div className={OpportunityStyle.Wrapper}>
         <div className={OpportunityStyle.Title}>
           <article className={OpportunityStyle.Article}>
-            <h2>{Constant.Home.Opportunity.Title[0]}</h2>
+            <h2 className={OpportunityStyle.H2}>{Constant.Home.Opportunity.Title[0]}</h2>
           </article>
           <div className={OpportunityStyle.Dropdown}>
             <Button tabIndex={selected}>{titleCase(Constant.Home.Variant[selected])}</Button>

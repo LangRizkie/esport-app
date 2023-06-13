@@ -27,6 +27,8 @@ const Jumbotron = () => {
 
   return (
     <section className={JumbotronStyle.Container}>
+      <div className={JumbotronStyle.Background} />
+      <div className={JumbotronStyle.Gradient} />
       <div className={JumbotronStyle.Wrapper}>
         <article className={JumbotronStyle.Article}>
           <h1 className={JumbotronStyle.Title}>
@@ -39,8 +41,8 @@ const Jumbotron = () => {
           </h1>
           <p className={JumbotronStyle.Description}>{Constant.Home.Jumbotron.Description}</p>
         </article>
-        <Button type='button' className='btn-wide'>
-          Be Champion!
+        <Button type='button' className={JumbotronStyle.Button}>
+          {Constant.Home.Jumbotron.Button}
         </Button>
       </div>
     </section>

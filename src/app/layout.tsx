@@ -17,7 +17,7 @@ const RootLayout: React.FC<Children> = ({ children }) => {
   const fonts = classNames(inter.className)
 
   return (
-    <html lang='en' data-theme='light' className={fonts}>
+    <html lang='en' data-theme='dark' className={fonts}>
       <body>
         <Providers>
           <Header />

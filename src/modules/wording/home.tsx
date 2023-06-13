@@ -4,11 +4,12 @@ class Jumbotron {
     'The one and only largest e-sport recruitment platform,',
     'we found you the most suitable needs to be the champion!'
   ].join('\n')
+  static Button = 'Be Champion!'
 }
 
 class Support {
   static Title = 'Integrated with'
-  static Assets = ['garena', 'krafton', 'valve', 'riot', 'moonton', 'zepetto']
+  static Assets = ['garena', 'krafton', 'valve', 'riot', 'zepetto', 'moonton', 'tencent']
 }
 
 class Opportunity {

@@ -7,13 +7,14 @@ const Support = () => (
     <div className={SupportStyle.Wrapper}>
       <span>{Constant.Home.Support.Title}</span>
       <div className={SupportStyle.Images}>
-        {Array.from(Array(6).keys()).map((_, index) => (
+        {Constant.Home.Support.Assets.map((logo, index) => (
           <Image
+            className={SupportStyle.Image}
             key={index}
             width={96}
             height={96}
-            src={`https://fakeimg.pl/96x96?text=${index}`}
-            alt='Logo'
+            src={`/support/${logo}.svg`}
+            alt={logo}
             draggable={false}
           />
         ))}
